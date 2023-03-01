@@ -1,0 +1,81 @@
+{
+    "__v": 0,
+    "_id": 37455,    
+    "add_time": 1621494398,
+    "api_opened": false,
+    "catid": 10189,
+    "catname": "公共分类",
+    "dataSync": "merge",
+    "desc": "",
+    "edit_uid": 0,
+    "index": 0,
+    "markdown": "",
+    "method": "POST",
+    "path": "/v4/inav/get-user-status",
+    "project_id": "1621",
+    "query_path": {
+        "path": "/v4/inav/get-user-status",
+        "params": []
+    },
+    "req_body_form": [
+        {
+            "required": "1",
+            "_id": "6131badc8a424b68d47250a7",
+            "name": "room_id",
+            "type": "text",
+            "desc": "房间id"
+        },
+        {
+            "required": "1",
+            "_id": "6131badc8a424b3e277250a6",
+            "name": "account_id",
+            "type": "text",
+            "example": "",
+            "desc": "用户id"
+        },
+        {
+            "required": "0",
+            "_id": "6131badc8a424bd83b7250a5",
+            "name": "from",
+            "type": "text",
+            "example": "",
+            "desc": ""
+        },
+        {
+            "required": "0",
+            "_id": "6131badc8a424b1da77250a4",
+            "name": "en",
+            "type": "text",
+            "example": "",
+            "desc": ""
+        }
+    ],
+    "req_body_is_json_schema": true,
+    "req_body_type": "form",
+    "req_headers": [
+        {
+            "required": "1",
+            "_id": "6131badc8a424b3a0d7250a3",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+        },
+        {
+            "required": "1",
+            "_id": "6131badc8a424bf20e7250a2",
+            "name": "vsstoken",
+            "example": "",
+            "desc": ""
+        }
+    ],
+    "req_params": [],
+    "req_query": [],
+    "res_body": "{\"type\":\"object\",\"title\":\"empty object\",\"properties\":{\"code\":{\"type\":\"number\",\"description\":\"200代表正常\"},\"msg\":{\"type\":\"string\",\"description\":\"消息提示\"},\"data\":{\"type\":\"object\",\"properties\":{\"is_banned\":{\"type\":\"number\",\"description\":\"禁言状态  1代表禁言 0代表没有\"},\"is_kicked\":{\"type\":\"number\",\"description\":\"踢出状态  1代表被踢出\"},\"is_like\":{\"type\":\"number\"}},\"description\":\"数据\",\"required\":[\"is_banned\",\"is_kicked\",\"is_like\"]}},\"required\":[\"code\",\"msg\",\"data\"]}",
+    "res_body_is_json_schema": true,
+    "res_body_type": "json",
+    "status": "done",
+    "tag": [],
+    "title": "获取用户状态",
+    "type": "static",
+    "uid": 608,
+    "up_time": 1630649052
+}

@@ -1,0 +1,8 @@
+.idea
+config/config.conf
+build
+**/*.pyc
+.DS_Store
+.history
+.venv
+venv

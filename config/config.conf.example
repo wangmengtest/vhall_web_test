@@ -1,0 +1,94 @@
+[env]
+excel_path = /Users/nelsonking/Desktop/vhall/excel
+json_path = /Users/nelsonking/Desktop/vhall/json
+ssl_path = /Users/nelsonking/Desktop/vhall/ssl
+chrome = /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+
+[dingtalk]
+appkey =
+appsecret =
+groupid =
+
+[vps]
+domain = https://vps-new.vhallyun.com
+app_id = 6147b94a
+app_secret = 7475068bfd04117b3ca3a4a2fc1b1bd6
+
+[csces_uopload]
+domain = http://d.csces-upload.com
+username = vhall
+password = 123456
+
+[test_pingan_vhallyun_api]
+domain = http://api.vhallyun.com
+app_id =
+app_secret =
+
+[prod_pingan_vhallyun_api]
+domain = http://api.vhallyun.com
+app_id =
+app_secret =
+
+[dev_pingan_db]
+host = 127.0.0.1
+user = root
+password = gaoyansing
+database = pingan
+
+[dev_pingan_api]
+domain = http://d.pingan.com
+app_id = 6147b94a
+app_secret = 7475068bfd04117b3ca3a4a2fc1b1bd6
+console_token =
+admin_token =
+app_token =
+vss_token =
+
+[test_pingan_api]
+domain = https://t-pingan.vhallyun.com/
+app_id = 6147b94a
+app_secret = 7475068bfd04117b3ca3a4a2fc1b1bd6
+admin_token =
+console_token =
+vss_token =
+app_token =
+
+[prod_pingan_api]
+domain = https://pingan.vhallyun.com
+app_id =
+app_secret =
+admin_token =
+app_token =
+vss_token =
+
+[local_picolive_db]
+host = 127.0.0.1
+user = root
+password = gaoyansing
+database = picolive
+
+[local_picolive_api]
+domain = http://d.picolive.com
+app_id = b6f14dbf
+app_secret = fb8c022d7aa9874a11ebc919fd0ac3ec
+console_token =
+admin_token =
+app_token =
+vss_token =
+
+[test_picolive_api]
+domain = https://t-picolive-api.vhallyun.com/
+app_id = b6f14dbf
+app_secret = fb8c022d7aa9874a11ebc919fd0ac3ec
+admin_token =
+console_token =
+vss_token =
+
+[prod_picolive_api]
+domain = https://pingan.vhallyun.com
+app_id =
+app_secret =
+admin_token =
+app_token =
+vss_token =
+
